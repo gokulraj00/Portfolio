@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gokul's Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a.active {
+      color: #ff8c00; 
+    }
+
+    main {
+      max-width: 800px;
+      margin: 100px auto;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+      display: none; 
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    #so{
+      display: flex;
+      /* gap: 30px; */
+      justify-content: space-between;
+      align-items: center;
+    }
+    #home img{
+      justify-content: start;
+      /* margin-bottom: 100%; */
+      /* overflow: hidden; */
+      height: 200px;
+      width: 200px;
+    }
+    #fu{
+      display: flex;
+      justify-content: space-between;
+      flex: 1;
+    }
+    #fu a {
+      display: flex;
+      justify-content: space-between;
+    }
+    #fu p{
+      padding-left: 10px;
+      padding-bottom: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+    #home h2 span{
+      color: #ff8c00;
+    }
+    #contact{
+      margin-left: 23%; 
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+        <!-- <h3>Welcome to My Portfolio!</h3> -->
+        <br>
+        <br>
+        <br>
+        <div id="so">
+        <h2>I am <span>Gokulraj R</span><br><br>
+          Sri Eshwar College of Engineering<br><br>
+          Pursuing Computer Science Engineering</h2>
+        <!-- <img src="" alt="Gokul's Photo"> -->
+        <!-- <h3></h3>
+        <h3></h3> -->
+       <img src="https://media.licdn.com/dms/image/D4D03AQFahUA1NGwScQ/profile-displayphoto-shrink_800_800/0/1685595386031?e=1692835200&v=beta&t=pqo9B44EXxM55y7h9U51cDVQx80dnJXSozAmR4k5d8Q" alt="Gokul's Photo">
+      </div>  
+      </section>
+
+    <section id="about">
+      <br>
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Gokul! I am a passionate web developer with a strong
+        interest in creating beautiful and functional websites. I have
+        several years of experience working with HTML, CSS, and JavaScript,
+        and I enjoy learning new technologies to expand my skillset.
+      </p>
+      <p>
+        My goal is to develop user-friendly and responsive web solutions
+        that meet the needs of clients and provide a seamless browsing
+        experience. I love collaborating with others and bringing creative
+        ideas to life through coding.
+      </p>
+      <p>
+        When I'm not coding, you can find me exploring the great outdoors,
+        playing the guitar, or indulging in a good book. Feel free to
+        contact me if you have any questions or if you'd like to work
+        together on a project.
+      </p>
+    </section>
+
+    <section id="projects">
+      <br>
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <h3>Zomato Website Redesign</h3>
+            <p>A complete redesign of Zomato's website to enhance user experience and improve aesthetics. Implemented modern UI/UX principles, optimized performance, and ensured responsiveness across devices.</p>
+          </li>
+          <li>
+            <h3>Lapinfo E-commerce Store</h3>
+            <p>Developed an e-commerce website for Lapinfo, a leading electronics brand. Implemented product catalog, shopping cart functionality, and secure payment processing, providing a seamless online shopping experience.</p>
+          </li>
+        </ul>
+      </section>
+      
+
+    <section id="contact">
+      <br>
+      <br>
+      <h2>Contact</h2>
+      <p>You can reach me at: <a href="mailto:your-email@example.com">gokulraj.r2021csea@sece.ac.in</a></p>
+      <br>
+    <div id="fu"><a href="https://www.linkedin.com/" class="svgs">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#00000" width="50" height="50" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        <p>linkedin : https://www.linkedin.com/in/gokulraj-r-6b3375242/</p>
+    </a></div>
+    <br>
+    <div id="fu"><a href="https://www.github.com/" class="svgs">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#00000" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        <p>Github link : https://github.com/gokulraj00</p>
+    </a></div>
+
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2023 Gokul's Portfolio. All rights reserved.
+  </footer>
+
+  <script>
+    const anchorLinks = document.querySelectorAll('.nav-link');
+    const sections = document.querySelectorAll('section');
+
+    anchorLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+
+        const target = document.querySelector(link.getAttribute('href'));
+        target.scrollIntoView({
+          behavior: 'smooth'
+        });
+
+        
+        anchorLinks.forEach(link => link.classList.remove('active'));
+        link.classList.add('active');
+
+        
+        sections.forEach(section => {
+          if (section.id === link.getAttribute('href').slice(1)) {
+            section.style.display = 'block';
+          } else {
+            section.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
